@@ -31,11 +31,7 @@ module.exports=(sequelize,DataTypes)=>{
                 notEmpty:true
             }
         },
-        bday:{
-            type:DataTypes.STRING,
-            allowNull:true,
-        }
-        
+              
     })
 
     return User;
